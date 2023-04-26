@@ -8,4 +8,9 @@ Also, don't forget to create "$maxTempWidth" variable and define it as Max-Width
 
 This mixin can accept several "old" and "new values" if you need it. For example, it can be useful for "panding" or "margin" when you specify several values for each side.
 
+EXAMPLE:
+@include responsive-size('padding', 'px', 25.2, 68.4, 10, 18);
+
+Here you can see, that I specified "padding" as property I want to create responsive sizes for. Next, "px" as my measurement system for this property. After this 2 OLD VALUES and 2 NEW VALUES. So, the Mixin takes "25.2" value as padding value for Y-Axis and "68.4" as padding value for X-Axis. As the result, it creates min value for Y-Axis as "10" and "18" for X-Axis
+
 ENJOY!
